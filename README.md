@@ -39,7 +39,7 @@ Html and CSS files have been given by Udacity to practice manipulating the DOM. 
 
 
 ## 🔍 Explore The Project
-- [Manipulating The DOM Practice](https://mohammed-aldhabaab.github.io/manipulating-the-dom-practice/){:target="_blank" rel="noopener"}
+- [Manipulating The DOM Practice](https://mohammed-aldhabaab.github.io/manipulating-the-dom-practice/)
 
 ## ✍ Authors
 - [@Mohammed-Aldhabaab](github.com/Mohammed-Aldhabaab)
