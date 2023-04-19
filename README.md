@@ -4,12 +4,11 @@
 
 
 <p align="center">
-   Practicing JavaScript on the DOM
+   Some of my JavaScript practice on the DOM
 </p>
 
 
 ## 📂 Table of Contents
-- [� Table of Contents](#-table-of-contents)
 - [📋 Project Description](#-project-description)
 - [⛏️ Built Using](#️-built-using)
 - [🔍 Explore The Project](#-explore-the-project)
