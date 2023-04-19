@@ -8,15 +8,16 @@
 </p>
 
 
-## 📂Table of Contents
-- [📂Table of Contents](#table-of-contents)
-- [📋Project Description](#project-description)
-- [⛏️Built Using](#️built-using)
-- [✍Authors](#authors)
-- [💳License](#license)
-- [🏅Acknowledgments](#acknowledgments)
+## 📂 Table of Contents
+- [� Table of Contents](#-table-of-contents)
+- [📋 Project Description](#-project-description)
+- [⛏️ Built Using](#️-built-using)
+- [🔍 Explore The Project](#-explore-the-project)
+- [✍ Authors](#-authors)
+- [💳 License](#-license)
+- [🏅 Acknowledgments](#-acknowledgments)
 
-## 📋Project Description
+## 📋 Project Description
 This project aims to practice real-world scenarios of manipulating the DOM. The following are scenarios that are manipulated on the DOM:
 - Building the navigation menu dynamically.
 - Building a Responsive nav bar for the small screen.
@@ -31,19 +32,23 @@ This project aims to practice real-world scenarios of manipulating the DOM. The 
 Note:
 Html and CSS files have been given by Udacity to practice manipulating the DOM. and have edited some parts.
 
-## ⛏️Built Using
+## ⛏️ Built Using
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): Interacting
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Styling
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Structuring
 
-## ✍Authors
+
+## 🔍 Explore The Project
+- [Manipulating The DOM Practice](https://mohammed-aldhabaab.github.io/manipulating-the-dom-practice/)
+
+## ✍ Authors
 - [@Mohammed-Aldhabaab](github.com/Mohammed-Aldhabaab)
 
 
-## 💳License
+## 💳 License
 - [MIT](https://choosealicense.com/licenses/mit/)
 
 
-## 🏅Acknowledgments
+## 🏅 Acknowledgments
 - [Udacity](udacity.com)
 - [SDA](https://sda.edu.sa/)
