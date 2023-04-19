@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+ 
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <div class="hamburger__menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>4 Main Features of ES6!</h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="classes" data-nav="Classes">
+      <div class="landing__container">
+        <h2 class="collapsible">Classes</h2>
+        <div class="content">
+          <p>JavaScript has never before had classes. In ES6, classes are introduced. Classes in other object-oriented languages, such C++, Java, PHP, etc., resemble classes in ES6. But they don't operate in precisely the same manner. By employing the "extends" keyword to implement inheritance, ES6 classes make it easier to construct objects and reuse code effectively.</p>
+        </div>
+      </div>
+    </section>
+    <section id="Promises" data-nav="Promises">
+      <div class="landing__container">
+        <h2 class="collapsible">Promises</h2>
+        <div class="content">
+          <p>Promises are used in JavaScript to handle asynchronous operations. When dealing with several asynchronous activities, where callbacks might lead to callback hell and incomprehensible code, they are simple to manage.</p>
+        </div>
+      </div>
+    </section>
+    <section id="arrow__functions" data-nav="Arrow Functions">
+      <div class="landing__container">
+        <h2 class="collapsible">Arrow Functions</h2>
+        <div class="content">
+          <p>The introduction of arrow functions in ES6 gives you a more precise approach to define JavaScript functions. They enable us to write shorter function syntax. Your code will be easier to read and more organized with arrow functions.</p>
+        </div>
+      </div>
+    </section>
+    <section id="destructuring__assignment" data-nav="Destructuring Assignment">
+      <div class="landing__container">
+        <h2 class="collapsible">Destructuring Assignment</h2>
+        <div class="content">
+          <p>The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into separate variables.</p>
+            <pre><code>            //Array Destructuring
+            let cities = ["Dubai", "Lucerne"];
+            let [d, l] = cities; // Array destructuring assignment
+            console.log(d);
+            console.log(l);</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="scroll__top__btn"></div>
+  <footer class="page__footer">
+    <p>&copy Udacity</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
