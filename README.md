@@ -4,7 +4,7 @@
 
 
 <p align="center">
-   Some of my JavaScript practice on the DOM
+   Some of my JavaScript practices on the DOM
 </p>
 
 
